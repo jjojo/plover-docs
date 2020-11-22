@@ -1,0 +1,33 @@
+{
+  "name": "plover-docs",
+  "version": "1.0.0",
+  "description": "Documentation for the openstenoproject and plover",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "docsify-cli": "^4.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "serve": "docsify serve ./docs --open true",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjojo/plover-docs.git"
+  },
+  "keywords": [
+    "Documentation",
+    "stenography",
+    "steno",
+    "plover"
+  ],
+  "author": "Various, assembled by Jonas Johansson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjojo/plover-docs/issues"
+  },
+  "homepage": "https://github.com/jjojo/plover-docs#readme"
+}
