@@ -1,4 +1,4 @@
 <!-- docs/_sidebar.md -->
 
-* [Home](/)
-* [What is Plover?](/what-is-plover/what-is-plover.md "What is Plover?") <!-- Sting used for better SEO -->
+- [The Open Steno Project](/ "The Open Steno Project") <!-- Stings used for better SEO -->
+- [Plover](/plover/plover.md "Plover")
