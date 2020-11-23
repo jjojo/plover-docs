@@ -12,3 +12,4 @@ This means that you can use Plover to chat on Facebook, write into Microsoft Wor
 Plover is used today by hundreds of people, with ranging skillsets. It is used by both professional stenographers, as well as transcriptionists, and by programmers. If you want to know more about the community, it's best to [join them for a chat](https://discord.gg/0lQde43a6dGmAMp2).
 
 [features](/features.md ':include')
+

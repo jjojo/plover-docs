@@ -1,4 +1,4 @@
-## Features
+## Features <!-- {docsify-ignore} -->
 
 Plover ain't your normal steno software. It's packed with many features which make it a great keyboard replacement.
 
@@ -12,3 +12,6 @@ Plover ain't your normal steno software. It's packed with many features which ma
 - Minimal, clean, out-of-your-face interface so you can focus on writing.
 
 ...and much, much more.
+
+--------------------
+
