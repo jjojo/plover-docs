@@ -19,15 +19,75 @@
     <script>
       window.$docsify = {
         name: "Open Steno Project Docs",
+        logo: "",
         repo: "",
         loadSidebar: true,
         alias: {
           "/.*/_sidebar.md": "/_sidebar.md",
         },
         subMaxLevel: 3,
+        search: {
+          // Absolute best search performance if specifying all paths
+          paths: [
+            "/README.md",
+            "/plover/README.md",
+            "/plover/features.md",
+            "/plover/dictionary-format/README.md",
+            "/plover/dictionary-format/control-commands.md",
+            "/plover/dictionary-format/default-dictionaries.md",
+            "/plover/dictionary-format/friendly-command-names.md",
+            "/plover/dictionary-format/json-rtf-cre.md",
+            "/plover/dictionary-format/keyboard-shortcuts.md",
+            "/plover/dictionary-format/macros.md",
+            "/plover/dictionary-format/output-modes.md",
+            "/plover/dictionary-format/README.md",
+            "/plover/dictionary-format/sending-symbols.md",
+            "/plover/dictionary-format/strokes-and-dictionaries.md",
+            "/plover/dictionary-format/text-formatting.md",
+            "/plover/dictionary-format/undoable-line-breaks-and-tabs.md",
+            "/plover/getting-started/confirm-it-is-working.md",
+            "/plover/getting-started/installation.md",
+            "/plover/getting-started/practice-and-learn.md",
+            "/plover/getting-started/README.md",
+            "/plover/getting-started/select-a-version.md",
+            "/plover/getting-started/setting-up-my-machine.md",
+            "/plover/supported-hardware/dedicated-machines.md",
+            "/plover/supported-hardware/keyboards.md",
+            "/plover/supported-hardware/laptops-with-nkro.md",
+            "/plover/supported-hardware/README.md",
+            "/plover/supported-hardware/steno-machines.md",
+          ],
+          placeholder: "Type to search",
+
+          noData: "No Results!",
+
+          depth: 3,
+
+          hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+        },
+        plugins: [
+          function (hook, vm) {
+            console.log(hook, vm);
+            hook.beforeEach(function (html) {
+              var url =
+                "https://github.com/jjojo/plover-docs/edit/main/docs/" +
+                vm.route.file;
+              var editHtml = "[📝 EDIT DOCUMENT](" + url + ")\n";
+
+              return (
+                editHtml +
+                html +
+                "\n----\n" +
+                "Last modified {docsify-updated} " +
+                editHtml
+              );
+            });
+          },
+        ],
       };
     </script>
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4.11.6"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify@4.11.6/lib/plugins/search.min.js"></script>
   </body>
 </html>

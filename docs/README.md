@@ -18,4 +18,4 @@ Stenography is useful for more than just court reporters. Typing at the speed of
 
 Plover is at the heart of the Open Steno Project ❤. Plover (rhymes with "lover") is a free, open source stenography engine written in Python. It allows individuals who learn stenography to write into any program at speeds of over 200 words per minute.
 
-Plover is cross platform and runs on Windows, macOS, and Linux. Read the [Plover](/plover/plover.md) section of this documentation to get started.
+Plover is cross platform and runs on Windows, macOS, and Linux. Read the [Plover](/plover/) section of this documentation to get started.
